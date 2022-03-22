@@ -12,13 +12,6 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToOne;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
-@Data // Lombok
-@NoArgsConstructor // Lombok
-@AllArgsConstructor // Lombok
 @Entity
 public class Mission {
 	@Id
@@ -33,8 +26,6 @@ public class Mission {
 	@JoinColumn(name = "CandidatId", referencedColumnName = "CandidatId")
 	private Candidat candidat;
 
-
-
 	public Mission(int missionId, String description, Date datedebut, Date datefin, Etat etat) {
 		super();
 		this.missionId = missionId;
@@ -42,7 +33,7 @@ public class Mission {
 		this.datedebut = datedebut;
 		this.datefin = datefin;
 		this.etat = etat;
-	
+
 	}
 
 	public int getMissionId() {
@@ -93,8 +84,6 @@ public class Mission {
 		this.candidat = candidat;
 	}
 
-
-
 	public Mission(int missionId, Candidat candidat) {
 		super();
 		this.missionId = missionId;
@@ -104,6 +93,5 @@ public class Mission {
 	public Mission() {
 		super();
 	}
-	
 
 }

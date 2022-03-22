@@ -16,7 +16,7 @@ import com.example.demo.data.UserRepository;
 import lombok.AllArgsConstructor;
 
 @Service
-@AllArgsConstructor
+
 public class ClientServiceQuery {
 	private final ClientRepository cl;
 	private final RoleRepository r;

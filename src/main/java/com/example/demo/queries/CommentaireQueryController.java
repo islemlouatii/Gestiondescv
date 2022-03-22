@@ -20,7 +20,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @RequestMapping(value = "/commentaire")
 //@Api(value = "Bank Account Queries", description = "Bank Account Query Events API")
-@AllArgsConstructor
+
 public class CommentaireQueryController {
 	  private final QueryGateway queryGateway;
 	    public CommentaireQueryController(QueryGateway queryGateway) {

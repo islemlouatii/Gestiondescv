@@ -12,7 +12,7 @@ import com.example.demo.data.EtatCandidat;
 import lombok.AllArgsConstructor;
 
 @Service
-@AllArgsConstructor
+
 public class CandidatQueryService {
 
 	  private final CandidatRepository candidatRepository;

@@ -16,7 +16,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping(value = "/client")
-@AllArgsConstructor
+
 public class ClientController {
 
 	private final ClientServiceQuery c;

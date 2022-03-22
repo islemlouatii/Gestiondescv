@@ -23,7 +23,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-@RequiredArgsConstructor
+//@RequiredArgsConstructor
 @Component
 public class MissionCommandService {
 	private static final Logger l = LogManager.getLogger(MissionCommandService.class);

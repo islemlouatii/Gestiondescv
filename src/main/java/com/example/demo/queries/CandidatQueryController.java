@@ -29,7 +29,7 @@ import lombok.AllArgsConstructor;
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping(value = "/candidat")
-@AllArgsConstructor
+
 public class CandidatQueryController {
 	   private final QueryGateway queryGateway;
 	   private final CandidatQueryService c;

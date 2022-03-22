@@ -17,7 +17,7 @@ import lombok.AllArgsConstructor;
 
 @RestController
 @RequestMapping(value = "/mission")
-@AllArgsConstructor
+
 public class MissionQueryController {
 	private final QueryGateway queryGateway;
 	private final MissionQueryService m;

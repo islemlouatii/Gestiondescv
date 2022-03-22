@@ -12,10 +12,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data
+
 @Builder
-@AllArgsConstructor
-@NoArgsConstructor
+
 public class MissionCreatedEvent {
 	private int missionId;
 	private String description;

@@ -12,7 +12,7 @@ import com.example.demo.data.CommentaireRepository;
 
 import lombok.AllArgsConstructor;
 @Service
-@AllArgsConstructor
+
 public class CommentaireQueryService {
 	private final CommentaireRepository comRepository;
 	private final CandidatRepository c;

@@ -14,7 +14,7 @@ import com.example.demo.data.Missionepository;
 import lombok.AllArgsConstructor;
 
 @Service
-@AllArgsConstructor
+
 public class MissionQueryService {
 	private final Missionepository missionRepository;
 

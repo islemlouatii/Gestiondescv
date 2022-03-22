@@ -16,9 +16,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Data // Lombok
-@NoArgsConstructor // Lombok
-@AllArgsConstructor // Lombok
+
 @Entity
 public class Commentaire {
 	@Id
